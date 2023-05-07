@@ -1,6 +1,6 @@
 while True:
     gplays = int(input("Digite um numero: "))
-    if gplays > 1 and gplays > 9:
+    if gplays < 1 or gplays > 9:
         print("O numero precisa ser entre 1 e 9")
     else:
         break
